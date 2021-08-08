@@ -1,0 +1,20 @@
+{
+  "name": "crx-dll-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ddl": "webpack --config webpack.ddl.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "is-promise": "^4.0.0",
+    "isarray": "^2.0.5",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
